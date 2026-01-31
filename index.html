@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="See the full Miller and Carter 2026 menu prices. Get the latest UK steakhouse costs, tips, and best value from the expert guide.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://millerandcartermenue.co.uk/">
+    
+    <!-- Primary Meta Tags -->
+    <title>Miller & Carter Prices 2026 Menu UK Steak Guide</title>
+    
+    <!-- CSS -->
+    <style>
+        :root {
+            --primary-color: #8B0000;
+            --secondary-color: #D4AF37;
+            --light-color: #F8F5F0;
+            --dark-color: #2C2C2C;
+            --gray-color: #6D6D6D;
+            --shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s ease;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--dark-color);
+            background-color: #fff;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header & Logo */
+        header {
+            background-color: white;
+            box-shadow: var(--shadow);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            animation: slideDown 0.8s ease;
+        }
+        
+        @keyframes slideDown {
+            from { transform: translateY(-100%); }
+            to { transform: translateY(0); }
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+        
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .logo {
+            height: 70px;
+            width: auto;
+            animation: fadeIn 1s ease;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        .logo-text h1 {
+            font-size: 1.8rem;
+            color: var(--primary-color);
+            margin-bottom: 5px;
+        }
+        
+        .logo-text p {
+            color: var(--gray-color);
+            font-size: 0.9rem;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1600891964092-4316c288032e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+            margin-bottom: 40px;
+            animation: zoomIn 1s ease;
+        }
+        
+        @keyframes zoomIn {
+            from { transform: scale(1.1); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+        
+        .hero h2 {
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+            animation: fadeInUp 1s ease 0.3s both;
+        }
+        
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto 30px;
+            animation: fadeInUp 1s ease 0.5s both;
+        }
+        
+        /* Content Sections */
+        section {
+            margin-bottom: 60px;
+            opacity: 0;
+            transform: translateY(30px);
+            transition: var(--transition);
+        }
+        
+        .section-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        h2 {
+            color: var(--primary-color);
+            font-size: 2rem;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid var(--secondary-color);
+            position: relative;
+        }
+        
+        h2:after {
+            content: '';
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            width: 100px;
+            height: 3px;
+            background-color: var(--primary-color);
+        }
+        
+        h3 {
+            color: var(--dark-color);
+            font-size: 1.5rem;
+            margin: 25px 0 15px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+            color: #444;
+        }
+        
+        .intro-text {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            background-color: var(--light-color);
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: var(--shadow);
+            margin-bottom: 40px;
+        }
+        
+        /* Menu Cards */
+        .menu-category {
+            margin-bottom: 40px;
+        }
+        
+        .menu-items {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 20px;
+        }
+        
+        .menu-item {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            animation: fadeIn 0.8s ease;
+        }
+        
+        .menu-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+        
+        .item-header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .item-name {
+            font-weight: 600;
+            font-size: 1.2rem;
+        }
+        
+        .item-price {
+            background-color: var(--secondary-color);
+            color: var(--dark-color);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        
+        .item-desc {
+            padding: 15px;
+            color: var(--gray-color);
+        }
+        
+        /* Stats Box */
+        .stats-box {
+            background-color: var(--light-color);
+            border-left: 5px solid var(--primary-color);
+            padding: 25px;
+            margin: 30px 0;
+            border-radius: 0 10px 10px 0;
+            box-shadow: var(--shadow);
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { box-shadow: var(--shadow); }
+            50% { box-shadow: 0 5px 20px rgba(139, 0, 0, 0.2); }
+            100% { box-shadow: var(--shadow); }
+        }
+        
+        .stats-box h3 {
+            color: var(--primary-color);
+            margin-top: 0;
+        }
+        
+        /* Tips List */
+        .tips-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .tip-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            border-top: 4px solid var(--secondary-color);
+        }
+        
+        .tip-card:hover {
+            transform: scale(1.03);
+        }
+        
+        .tip-card h4 {
+            color: var(--primary-color);
+            margin-bottom: 10px;
+        }
+        
+        /* FAQ */
+        .faq-item {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+        }
+        
+        .faq-question {
+            font-weight: bold;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .faq-answer {
+            color: var(--gray-color);
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease;
+        }
+        
+        .faq-answer.open {
+            max-height: 200px;
+        }
+        
+        .faq-toggle {
+            font-size: 1.5rem;
+            transition: transform 0.3s ease;
+        }
+        
+        .faq-toggle.rotated {
+            transform: rotate(45deg);
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--dark-color);
+            color: white;
+            padding: 40px 0 20px;
+            margin-top: 60px;
+        }
+        
+        .footer-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 40px;
+            margin-bottom: 30px;
+        }
+        
+        .footer-section {
+            flex: 1;
+            min-width: 250px;
+        }
+        
+        .footer-section h3 {
+            color: var(--secondary-color);
+            margin-bottom: 20px;
+            font-size: 1.3rem;
+        }
+        
+        .footer-links {
+            list-style: none;
+        }
+        
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-links a {
+            color: #ccc;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        
+        .footer-links a:hover {
+            color: var(--secondary-color);
+            padding-left: 5px;
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid #444;
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                gap: 20px;
+            }
+            
+            .hero h2 {
+                font-size: 2.2rem;
+            }
+            
+            .menu-items {
+                grid-template-columns: 1fr;
+            }
+            
+            .tips-list {
+                grid-template-columns: 1fr;
+            }
+            
+            h2 {
+                font-size: 1.7rem;
+            }
+        }
+        
+        /* Highlight keyword */
+        .keyword-highlight {
+            color: var(--primary-color);
+            font-weight: bold;
+        }
+        
+        /* Back to top button */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: var(--primary-color);
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+            transition: var(--transition);
+            opacity: 0;
+            transform: translateY(20px);
+            z-index: 999;
+        }
+        
+        .back-to-top.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .back-to-top:hover {
+            background-color: var(--secondary-color);
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header with Logo -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-container">
+                    <img src="https://millerandcartermenue.co.uk/wp-content/uploads/2026/01/cropped-Miller_and_Carter_Logo-1.png" alt="Miller and Carter Logo" class="logo">
+                    <div class="logo-text">
+                        <h1>Miller & Carter Prices 2026 Menu UK Steak </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Miller and Carter 2026 Menu Prices: Your Complete UK Steakhouse Guide</h2>
+            <p style="color:white;">Looking for the full Miller and Carter menu prices for 2026? You are in the right place. Known for its top-quality steak, Miller and Carter is a favourite UK restaurant. For the most accurate and updated information, always check the official Miller and Carter website.</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Introduction -->
+        <section id="introduction">
+            <div class="intro-text">
+                <p>Looking for the full <a href="https://millerandcartermenue.co.uk/" style="color: var(--secondary-color); text-decoration: underline;">Miller and Carter</a> menu prices for 2026? You are in the right place. Known for its top-quality steak, <span class="keyword-highlight">Miller and Carter</span> is a favourite UK restaurant. This guide will show you all the updated prices, help you understand the menu, and give you tips for your next visit. We want to make this easy for you to read and understand. So, let us get started.</p>
+            </div>
+        </section>
+
+        <!-- What Makes Miller and Carter Special -->
+        <section id="special">
+            <h2>What Makes Miller and Carter Special?</h2>
+            <p>Before we talk about prices, let us see why people love <span class="keyword-highlight">Miller and Carter</span>. This steakhouse is famous for one thing: amazing steak. They are very careful about their meat. They use only British and Irish beef. Each steak is aged for 30 days. This makes the steak very tender and full of flavour. The restaurant also has a relaxed but smart feeling. It is perfect for a special dinner. Now, let us look at the 2026 <strong>menu prices</strong>.</p>
+        </section>
+
+        <!-- Starter Prices -->
+        <section id="starters">
+            <h2>Miller and Carter 2026 Starter Prices</h2>
+            <p>Starters are a great way to begin your meal. The prices here are good for the quality you get.</p>
+            
+            <div class="menu-category">
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <div class="item-name">Steak & Onion Brioche Bite</div>
+                            <div class="item-price">£7.95</div>
+                        </div>
+                        <div class="item-desc">Tasty steak in soft brioche bread</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <div class="item-name">Hand-Crafted Hash Brown</div>
+                            <div class="item-price">£7.50</div>
+                        </div>
+                        <div class="item-desc">Made fresh in the kitchen</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <div class="item-name">Garlic Bread with Mozzarella</div>
+                            <div class="item-price">£6.25</div>
+                        </div>
+                        <div class="item-desc">Warm bread with cheese and garlic</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <div class="item-name">Dressed Atlantic Prawns</div>
+                            <div class="item-price">£9.25</div>
+                        </div>
+                        <div class="item-desc">Fresh prawns with tasty sauce</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <div class="item-name">Crispy Buttermilk Chicken</div>
+                            <div class="item-price">£7.95</div>
+                        </div>
+                        <div class="item-desc">Chicken in crispy buttermilk batter</div>
+                    </div>
+                </div>
+            </div>
+            
+            <p>Our tip? The Hand-Crafted Hash Brown is a unique and popular choice. It is a great start to your <strong>steakhouse</strong> experience.</p>
+        </section>
+
+        <!-- Steak Prices -->
+        <section id="steaks">
+            <h2>The Main Event: Steak Prices at Miller and Carter</h2>
+            <p>This is the most important part of the menu. <span class="keyword-highlight">Miller and Carter</span> offers many cuts of steak. Each steak comes with their famous 'Steak Mitts'. These are a lettuce wedge, onion loaf, beef tomato, and your choice of sauce and fries.</p>
+            
+            <h3>2026 Prices for Steak Cuts</h3>
+            <div class="menu-category">
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <div class="item-name">8oz Sirloin</div>
+                            <div class="item-price">£29.95</div>
+                        </div>
+                        <div class="item-desc">A classic cut, full of flavour</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <div class="item-name">11oz Sirloin</div>
+                            <div class="item-price">£34.95</div>
+                        </div>
+                        <div class="item-desc">Larger size of the popular sirloin</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <div class="item-name">8oz Rump</div>
+                            <div class="item-price">£26.95</div>
+                        </div>
+                        <div class="item-desc">Good value, rich taste</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <div class="item-name">12oz Rump</div>
+                            <div class="item-price">£29.95</div>
+                        </div>
+                        <div class="item-desc">Bigger portion of rump steak</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <div class="item-name">8oz Fillet</div>
+                            <div class="item-price">£37.95</div>
+                        </div>
+                        <div class="item-desc">The most tender cut</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <div class="item-name">10oz Fillet</div>
+                            <div class="item-price">£44.95</div>
+                        </div>
+                        <div class="item-desc">Larger fillet, very soft texture</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <div class="item-name">14oz Ribeye</div>
+                            <div class="item-price">£34.95</div>
+                        </div>
+                        <div class="item-desc">Juicy with a bit of fat for flavour</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <div class="item-name">18oz T-Bone</div>
+                            <div class="item-price">£42.95</div>
+                        </div>
+                        <div class="item-desc">Two cuts in one, for big appetites</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Statistics Section -->
+        <section id="stats">
+            <h2>A Note on UK Dining Costs</h2>
+            <div class="stats-box">
+                <p>Eating out in the UK has changed. A 2025 report by the British Hospitality Association showed that menu prices have gone up. This is due to higher costs for food, energy, and staff. The average price of a main course at a mid-range restaurant has increased by about 12% since 2022.</p>
+                <p>When you look at the <span class="keyword-highlight">Miller and Carter</span> prices, remember they include high-quality beef and a full meal with sides. This gives good value compared to many other places.</p>
+            </div>
+        </section>
+
+        <!-- Other Main Courses -->
+        <section id="other-mains">
+            <h2>Other Main Course Options</h2>
+            <p>Not everyone wants steak. The <strong>menu</strong> has other tasty dishes.</p>
+            
+            <div class="menu-category">
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <div class="item-name">British Cheese & Onion Burger</div>
+                            <div class="item-price">£17.95</div>
+                        </div>
+                        <div class="item-desc">Juicy burger with British cheese</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <div class="item-name">Half Rotisserie Chicken</div>
+                            <div class="item-price">£18.95</div>
+                        </div>
+                        <div class="item-desc">Slow-cooked chicken, very tender</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <div class="item-name">Panko British Pork Schnitzel</div>
+                            <div class="item-price">£17.50</div>
+                        </div>
+                        <div class="item-desc">Crispy pork with panko breadcrumbs</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <div class="item-name">Goats' Cheese & Butternut Squash Risotto</div>
+                            <div class="item-price">£16.25</div>
+                        </div>
+                        <div class="item-desc">Creamy rice dish, vegetarian option</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sides and Drinks -->
+        <section id="sides-drinks">
+            <h2>Sides, Sauces, and Drinks</h2>
+            <p>Your steak comes with sides. But you can order extra. Extra sides cost around £4.25 each. Sauces are important for your steak. They cost about £3.50 each. Choose from Peppercorn, Béarnaise, Stilton Blue Cheese, and more.</p>
+            <p>For drinks, a glass of house wine starts at £6.50. A pint of beer is around £5.95. Soft drinks are approximately £3.25.</p>
+        </section>
+
+        <!-- Desserts -->
+        <section id="desserts">
+            <h2>Dessert Prices at Miller and Carter</h2>
+            <p>Finish your meal with something sweet.</p>
+            
+            <div class="menu-category">
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <div class="item-name">Sticky Toffee Pudding</div>
+                            <div class="item-price">£7.95</div>
+                        </div>
+                        <div class="item-desc">Warm pudding with toffee sauce</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <div class="item-name">Chocolate Brownie</div>
+                            <div class="item-price">£7.50</div>
+                        </div>
+                        <div class="item-desc">Rich chocolate brownie</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <div class="item-name">Baked Vanilla Cheesecake</div>
+                            <div class="item-price">£7.95</div>
+                        </div>
+                        <div class="item-desc">Creamy cheesecake with vanilla</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <div class="item-name">British Cheese Board</div>
+                            <div class="item-price">£9.50</div>
+                        </div>
+                        <div class="item-desc">Selection of British cheeses</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tips Section -->
+        <section id="tips">
+            <h2>How to Get the Best Value at Miller and Carter</h2>
+            <p>We all like good value. Here are some simple tips for your visit to <span class="keyword-highlight">Miller and Carter</span>:</p>
+            
+            <div class="tips-list">
+                <div class="tip-card">
+                    <h4>Go for Lunch</h4>
+                    <p>The lunch menu is often cheaper. You can enjoy a smaller steak or a burger for a lower price.</p>
+                </div>
+                
+                <div class="tip-card">
+                    <h4>Share a Starter</h4>
+                    <p>The starters are quite big. Sharing one can save money.</p>
+                </div>
+                
+                <div class="tip-card">
+                    <h4>Remember the 'Steak Mitts'</h4>
+                    <p>Your steak comes with a lettuce wedge, onion loaf, beef tomato, and fries. You may not need extra sides.</p>
+                </div>
+                
+                <div class="tip-card">
+                    <h4>Check for Offers</h4>
+                    <p>Look at their website. They sometimes have special menus for dates like Valentine's Day or Christmas.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq">
+            <h2>Answering Your Questions</h2>
+            <p>People often ask these questions about <span class="keyword-highlight">Miller and Carter</span>.</p>
+            
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Do I need to book a table?
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, it is a good idea. This restaurant is very popular, especially on weekends.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Is there a dress code?
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>It is smart-casual. You do not need a suit, but clean, tidy clothes are best.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Can they cook my steak how I like it?
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, of course! Tell your server if you want it rare, medium, or well-done.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final Thoughts -->
+        <section id="final-thoughts">
+            <h2>Final Thoughts on Your 2026 Visit</h2>
+            <p><span class="keyword-highlight">Miller and Carter</span> offers a special meal. The 2026 <strong>menu prices</strong> reflect the high quality of the food and experience. It is not the cheapest meal, but it is good value for a treat. You are paying for expert chefs, great ingredients, and a lovely atmosphere.</p>
+            <p>Whether you love steak or are trying it for the first time, Miller and Carter is a great choice. Use this guide to plan your visit. Know the prices before you go. Then, you can relax and enjoy your perfect steak.</p>
+            <p>We hope this guide to the <span class="keyword-highlight">Miller and Carter</span> 2026 <strong>menu prices</strong> has been helpful. Enjoy your meal.</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            
+            <div class="copyright">
+                <p style="color:white;">&copy; 2026 Miller and Carter Menu. This is an independent guide. Miller and Carter is a registered trademark.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop">↑</a>
+
+    <!-- JavaScript -->
+    <script>
+        // Scroll animation for sections
+        document.addEventListener('DOMContentLoaded', function() {
+            const sections = document.querySelectorAll('section');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('section-visible');
+                    }
+                });
+            }, { threshold: 0.1 });
+            
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+            
+            // Back to top button
+            const backToTopButton = document.getElementById('backToTop');
+            
+            window.addEventListener('scroll', () => {
+                if (window.pageYOffset > 300) {
+                    backToTopButton.classList.add('visible');
+                } else {
+                    backToTopButton.classList.remove('visible');
+                }
+            });
+            
+            backToTopButton.addEventListener('click', (e) => {
+                e.preventDefault();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+            
+            // FAQ toggle functionality
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', () => {
+                    const answer = question.nextElementSibling;
+                    const toggle = question.querySelector('.faq-toggle');
+                    
+                    // Close all other FAQ answers
+                    document.querySelectorAll('.faq-answer').forEach(item => {
+                        if (item !== answer) {
+                            item.classList.remove('open');
+                            item.previousElementSibling.querySelector('.faq-toggle').classList.remove('rotated');
+                        }
+                    });
+                    
+                    // Toggle current answer
+                    answer.classList.toggle('open');
+                    toggle.classList.toggle('rotated');
+                });
+            });
+            
+            // Add some interactive animations to menu items
+            const menuItems = document.querySelectorAll('.menu-item');
+            
+            menuItems.forEach(item => {
+                item.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-10px)';
+                });
+                
+                item.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+</html>
